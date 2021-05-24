@@ -1,0 +1,66 @@
+plugins {
+    id 'com.android.application'
+    id 'com.tomorrow.plugin'
+}
+
+
+jiaguExt {
+    userName 'lingjianglin'
+    jiaGuPluginPath 'C:\\Users\\admin\\Desktop\\360jiagubao_windows_64\\jiagu\\jiagu.jar' //  加固保安装的路劲
+    storeFilePath file("../plugin.jks").absolutePath                                                // 签名文件位置
+    storePassword '123456'                                                             //  密码
+    keyAlias '123456'                                                                            // 别名
+    keyPassword '123456'
+    jiaGuUserName '****'       //这里配置的是 你的360加固的用户名   替换****
+    jiaGuPwd '****'    //360加固的密码  用自己的密码替换****
+}
+pgyerExt {
+    pgyerApiKey '****'
+}
+
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.example.pgy"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        config {
+            //9E:97:01:A4:27:15:50:7C:38:49:8B:E0:A0:29:26:03:58:EF:B6:66  PtHkkdsicwQcscQPrGeGk9zTLGDLThGo
+            storeFile file('../plugin.jks')
+            keyAlias = '123456'
+            storePassword '123456'
+            keyPassword '123456'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.config
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
