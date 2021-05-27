@@ -60,7 +60,7 @@ public class PgyerTask extends DefaultTask {
                         "-F", "_api_key=" + mPgyerExtention.getPgyerApiKey(),
                         "-F", "buildInstallType=" + mPgyerExtention.getPgyerApiKey(),
                         "-F", "buildPassword=" + mPgyerExtention.getBuildPassword(),
-                        "-F", "buildUpdateDescription=" + mPgyerExtention.getBuildUpdateDescription()+path,
+                        "-F", "buildUpdateDescription=" + mPgyerExtention.getBuildUpdateDescription(),
                         "-F", "buildName=" + mPgyerExtention.getBuildName(),
                         "-F", "buildInstallQuestoin=" + mPgyerExtention.getBuildInstallQuestoin(),
                         "-F", "buildInstallAnswer=" + mPgyerExtention.getBuildInstallAnswer(),

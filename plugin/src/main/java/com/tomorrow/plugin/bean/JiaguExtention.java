@@ -7,7 +7,6 @@ package com.tomorrow.plugin.bean;
 public class JiaguExtention {
 
 
-    private String userName;
     private String jiaGuPluginPath;  // '/Users/we/Documents/360jiagubao_mac/jiagu/' //  加固保安装的路劲
 
     private String storeFilePath;  // file("../store.jks").absolutePath              // 签名文件位置
@@ -21,14 +20,6 @@ public class JiaguExtention {
     private String jiaGuUserName;  //        //  360加固保用户名
 
     private String jiaGuPwd;   //
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
 
     public String getJiaGuPluginPath() {
         return jiaGuPluginPath;
@@ -89,7 +80,6 @@ public class JiaguExtention {
     @Override
     public String toString() {
         return "JiaGuExt{" +
-                "userName='" + userName + '\'' +
                 ", jiaGuPluginPath='" + jiaGuPluginPath + '\'' +
                 ", storeFilePath='" + storeFilePath + '\'' +
                 ", storePassword='" + storePassword + '\'' +
