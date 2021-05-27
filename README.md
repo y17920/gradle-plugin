@@ -45,4 +45,4 @@
     }
     (```)
 ## 使用
-    ![使用](image.png )
+    ![image](https://github.com/yuteng2014/gradle-plugin/blob/master/image.png)
