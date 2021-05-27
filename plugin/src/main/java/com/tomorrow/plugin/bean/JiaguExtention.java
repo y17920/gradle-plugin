@@ -2,9 +2,7 @@ package com.tomorrow.plugin.bean;
 
 /**
  * @author yuteng
- * @Description:
- * @date 2021/5/23 15:44
- * @Since version 2021/5/23
+2021/5/23 15:44
  */
 public class JiaguExtention {
 

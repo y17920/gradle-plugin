@@ -1,22 +1,22 @@
 plugins {
     id 'com.android.application'
-    id 'com.tomorrow.plugin'
+//    id 'com.tomorrow.plugin'
 }
 
 
-jiaguExt {
-    userName 'lingjianglin'
-    jiaGuPluginPath 'C:\\Users\\admin\\Desktop\\360jiagubao_windows_64\\jiagu\\jiagu.jar' //  加固保安装的路劲
-    storeFilePath file("../plugin.jks").absolutePath                                                // 签名文件位置
-    storePassword '123456'                                                             //  密码
-    keyAlias '123456'                                                                            // 别名
-    keyPassword '123456'
-    jiaGuUserName '****'       //这里配置的是 你的360加固的用户名   替换****
-    jiaGuPwd '****'    //360加固的密码  用自己的密码替换****
-}
-pgyerExt {
-    pgyerApiKey '****'
-}
+//jiaguExt {
+//    userName 'lingjianglin'
+//    jiaGuPluginPath 'C:\\Users\\admin\\Desktop\\360jiagubao_windows_64\\jiagu\\jiagu.jar' //  加固保安装的路劲
+//    storeFilePath file("../plugin.jks").absolutePath                                                // 签名文件位置
+//    storePassword '123456'                                                             //  密码
+//    keyAlias '123456'                                                                            // 别名
+//    keyPassword '123456'
+//    jiaGuUserName '****'       //这里配置的是 你的360加固的用户名   替换****
+//    jiaGuPwd '****'    //360加固的密码  用自己的密码替换****
+//}
+//pgyerExt {
+//    pgyerApiKey '****'
+//}
 
 
 android {

@@ -17,10 +17,7 @@ import org.gradle.api.Task;
 import java.io.File;
 
 /**
- * @author yuteng
- * @Description:
- * @date 2021/5/23 13:43
- * @Since version 2021/5/23
+ * @author yuteng * @date 2021/5/23 13:43
  */
 public class YuPlugin implements Plugin<Project> {
     @Override

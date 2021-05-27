@@ -14,9 +14,7 @@ import javax.inject.Inject;
 
 /**
  * @author yuteng
- * @Description:
  * @date 2021/5/23 15:37
- * @Since version 2021/5/23
  */
 public class PgyerTask extends DefaultTask {
 
