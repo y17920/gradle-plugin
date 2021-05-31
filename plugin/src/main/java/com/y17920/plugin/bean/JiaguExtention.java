@@ -1,4 +1,4 @@
-package com.tomorrow.plugin.bean;
+package com.y17920.plugin.bean;
 
 /**
  * @author yuteng

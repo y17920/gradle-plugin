@@ -1,12 +1,12 @@
-package com.tomorrow.plugin;
+package com.y17920.plugin;
 
 import com.android.build.gradle.AppExtension;
 import com.android.build.gradle.api.ApplicationVariant;
 import com.android.build.gradle.api.BaseVariantOutput;
-import com.tomorrow.plugin.bean.JiaguExtention;
-import com.tomorrow.plugin.bean.PgyerExtention;
-import com.tomorrow.plugin.task.JiaguTask;
-import com.tomorrow.plugin.task.PgyerTask;
+import com.y17920.plugin.bean.JiaguExtention;
+import com.y17920.plugin.bean.PgyerExtention;
+import com.y17920.plugin.task.JiaguTask;
+import com.y17920.plugin.task.PgyerTask;
 
 import org.gradle.api.Action;
 import org.gradle.api.DomainObjectCollection;

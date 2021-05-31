@@ -1,6 +1,6 @@
-package com.tomorrow.plugin.task;
+package com.y17920.plugin.task;
 
-import com.tomorrow.plugin.bean.JiaguExtention;
+import com.y17920.plugin.bean.JiaguExtention;
 
 import org.gradle.api.Action;
 import org.gradle.api.DefaultTask;
@@ -25,7 +25,7 @@ public class JiaguTask extends DefaultTask {
 
     @Inject
     public JiaguTask(File file, JiaguExtention jiaju) {
-        setGroup("tomorrow");
+        setGroup("y17920");
         mFile = file;
         mJiaju = jiaju;
     }

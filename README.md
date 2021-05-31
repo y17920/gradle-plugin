@@ -11,13 +11,13 @@
                }
              }
              dependencies {
-               classpath "com.tomorrow:plugin:1.3"
+               classpath "com.y17920:plugin:1.3"
              }
            }
          (```)
 ## 在app目录下的build.grdle添加
     (```)
-    apply plugin: "com.tomorrow.plugin"
+    apply plugin: "com.y17920.plugin"
 
     jiaguExt {
         userName 'lingjianglin'
@@ -45,4 +45,5 @@
     }
     (```)
 ## 使用
-![image](https://github.com/yuteng2014/gradle-plugin/blob/master/image.png)
+    Tasks y17920
+![image](https://github.com/y17920/gradle-plugin/blob/master/image.png)

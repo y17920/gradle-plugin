@@ -1,7 +1,7 @@
-package com.tomorrow.plugin.task;
+package com.y17920.plugin.task;
 
 import com.android.build.gradle.api.BaseVariantOutput;
-import com.tomorrow.plugin.bean.PgyerExtention;
+import com.y17920.plugin.bean.PgyerExtention;
 
 import org.gradle.api.Action;
 import org.gradle.api.DefaultTask;
@@ -35,7 +35,7 @@ public class PgyerTask extends DefaultTask {
      *
      */
     public PgyerTask(BaseVariantOutput output, PgyerExtention pgyerExtention, boolean isJiagu, String versionName) {
-        setGroup("tomorrow");
+        setGroup("y17920");
         mOutput = output;
         mPgyerExtention = pgyerExtention;
         mIsJiagu = isJiagu;
