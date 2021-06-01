@@ -1,4 +1,4 @@
-package com.y17920.plugin.bean;
+package com.github.y17920.plugin.bean;
 
 /**
  * @author yuteng

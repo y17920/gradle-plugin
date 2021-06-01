@@ -11,13 +11,13 @@
                }
              }
              dependencies {
-               classpath "com.y17920:plugin:1.3"
+               classpath "com.github.y17920:plugin:1.3"
              }
            }
          (```)
 ## 在app目录下的build.grdle添加
     (```)
-    apply plugin: "com.y17920.plugin"
+    apply plugin: "com.github.y17920.plugin"
 
     jiaguExt {
         userName 'lingjianglin'

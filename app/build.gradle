@@ -1,6 +1,6 @@
 plugins {
     id 'com.android.application'
-    id 'com.y17920.plugin'
+    id 'com.github.y17920.plugin'
 }
 
 

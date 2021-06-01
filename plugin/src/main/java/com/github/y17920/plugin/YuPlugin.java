@@ -1,12 +1,12 @@
-package com.y17920.plugin;
+package com.github.y17920.plugin;
 
 import com.android.build.gradle.AppExtension;
 import com.android.build.gradle.api.ApplicationVariant;
 import com.android.build.gradle.api.BaseVariantOutput;
-import com.y17920.plugin.bean.JiaguExtention;
-import com.y17920.plugin.bean.PgyerExtention;
-import com.y17920.plugin.task.JiaguTask;
-import com.y17920.plugin.task.PgyerTask;
+import com.github.y17920.plugin.bean.JiaguExtention;
+import com.github.y17920.plugin.bean.PgyerExtention;
+import com.github.y17920.plugin.task.JiaguTask;
+import com.github.y17920.plugin.task.PgyerTask;
 
 import org.gradle.api.Action;
 import org.gradle.api.DomainObjectCollection;

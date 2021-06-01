@@ -1,7 +1,7 @@
-package com.y17920.plugin.task;
+package com.github.y17920.plugin.task;
 
 import com.android.build.gradle.api.BaseVariantOutput;
-import com.y17920.plugin.bean.PgyerExtention;
+import com.github.y17920.plugin.bean.PgyerExtention;
 
 import org.gradle.api.Action;
 import org.gradle.api.DefaultTask;
@@ -44,9 +44,9 @@ public class PgyerTask extends DefaultTask {
 
     @TaskAction
     public void pgyer() {
-
-        System.out.println(mOutput.toString());
-        System.out.println(mPgyerExtention.toString());
+        if (null ==mPgyerExtention ){
+            System.out.println("Pgyer NullPointerException 没有设置蒲公英");
+        }
         getProject().exec(new Action<ExecSpec>() {
             @Override
             public void execute(ExecSpec spec) {

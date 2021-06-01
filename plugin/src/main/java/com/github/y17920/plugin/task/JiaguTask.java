@@ -1,6 +1,6 @@
-package com.y17920.plugin.task;
+package com.github.y17920.plugin.task;
 
-import com.y17920.plugin.bean.JiaguExtention;
+import com.github.y17920.plugin.bean.JiaguExtention;
 
 import org.gradle.api.Action;
 import org.gradle.api.DefaultTask;
@@ -10,7 +10,6 @@ import org.gradle.process.ExecSpec;
 import java.io.File;
 
 import javax.inject.Inject;
-
 /**
  * @author yuteng
  * @Description:
@@ -32,6 +31,9 @@ public class JiaguTask extends DefaultTask {
 
     @TaskAction
     public void jiagu() {
+        if (null ==mJiaju ){
+            System.out.println("Jiaju NullPointerException 没有设置加固配置");
+        }
         getProject().exec(new Action<ExecSpec>() {
             @Override
             public void execute(ExecSpec execSpec) {
