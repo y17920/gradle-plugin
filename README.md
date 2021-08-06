@@ -20,7 +20,6 @@
     apply plugin: "com.github.y17920.plugin"
 
     jiaguExt {
-        userName 'lingjianglin'
         jiaGuPluginPath 'C:\\Users\\admin\\Desktop\\360jiagubao_windows_64\\jiagu\\jiagu.jar' //  加固保安装的路劲
         storeFilePath file("../plugin.jks").absolutePath                                                // 签名文件位置
         storePassword '123456'                                                             //  密码
